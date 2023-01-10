@@ -36,7 +36,8 @@ a {
 }
 
 
-.top-button {
+.top-button,
+.bottom-button {
     background-color: #3882f6;
     border: none;
     color: #f9faf8;
@@ -136,9 +137,34 @@ ul {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
-    text-align: center;
+    text-align: end;
 }
 
 .author {
     text-align: end;
+}
+
+/* button section */
+
+.button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin: 100px 200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.bottom-button {
+    border: 3px solid #f9faf8
+}
+
+/* footer */
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 25px;
+    text-align: center;
 }

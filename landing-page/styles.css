@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 /* header styles */
@@ -35,11 +35,6 @@ a {
     color: #f9faf8;
 }
 
-#image-header {
-    width: 400px;
-    height: auto;
-    border-radius: 10px;
-}
 
 .top-button {
     background-color: #3882f6;
@@ -50,7 +45,37 @@ a {
     border-radius: 8px;
     margin-top: 15px;
 }
+ /* center styles */
 
+img {
+    height: 220px;
+    width: 220px;
+    border-radius: 25px;
+    border: 10px solid #3882f6;
+}
+
+#image-header {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    border: none;
+}
+
+.images {
+    gap: 50px;
+}
+
+.random-text {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 50px;
+}
+
+.caption {
+    text-align: center;
+    margin-top: 10px;
+}
 /* header flex*/
 
 .header,
@@ -73,12 +98,27 @@ ul {
     gap: 200px;
  }
 
-img {
-    height: 300px;
-    width: 300px;
+
+
+/* information flex*/
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 100px 100px
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+    align-items: center;
+    gap: 25px;
 }
 
 .images {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }

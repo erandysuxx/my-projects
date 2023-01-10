@@ -45,6 +45,10 @@ a {
     border-radius: 8px;
     margin-top: 15px;
 }
+
+.awsome {
+    width: 400px;
+}
  /* center styles */
 
 img {
@@ -95,9 +99,8 @@ ul {
 
  .content {
     display: flex;
-    gap: 200px;
+    gap: 50px;
  }
-
 
 
 /* information flex*/
@@ -121,4 +124,21 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+/*quote */
+.quote {
+    background-color: #e5e7eb;
+    padding:  100px 200px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.author {
+    text-align: end;
 }
